@@ -1,19 +1,34 @@
 <html>
 <head>
 <title> The books in the Library </title>
+<link rel="stylesheet" href="style.css">
+<style>
+a {color: pink;
+ text-decoration: none;
+ font-weight: bold;
+ }
+ a:hover {
+ color: yellow;
+ text-decoration: underline;
+ }
+ .main A {
+ color: navy; /* Темно-синій колір посилань */
+ }
+</style>
 </head>
 <body>
-<p>Бібліотека</p>
-<p>Наша бібліотека надає можливість кожному читачу знайти літературу собі до смаку.</p>
-<p>В каталозі нашої бібліотеки є книги різних жанрів, і у вас є можливість ознайомитися чи навіть купити як розважальну літературу, так і підручники, необхідні для навчання.</p>
+<h1 class="important">Бібліотека</h1>
+<p style= "color: red!important; font size: 120%">Наша бібліотека надає можливість кожному читачу знайти літературу собі до смаку.</p>
+<p style= "color: blue; font size: 100%">В каталозі нашої бібліотеки є книги різних жанрів, і у вас є можливість ознайомитися чи навіть купити як розважальну літературу, так і підручники, необхідні для навчання.</p>
+<div class="main">
 <ul>
 <li><a href="#Бібліотека" color="green">Бібліотека</a></li>
 <li><a href="2.html" color="blue">Навчальна література</a></li>
 <li><a href="333.html#Наукова література" color="yellow">Наукова література</a></li>
 <li><a href="444.html" color="grey">Розважальна література</a></li>
-<li><a href="http://nbuv.gov.ua/"
-color="purple">Бібліотека-партнер</a></li>
+<li><a href="http://nbuv.gov.ua/" color="purple">Бібліотека-партнер</a></li>
 </ul>
+</div>
 <p>Статистика кількості відвідувачів нашої бібліотеки в день(від найменшого до найбільшого)</p>
 <table box bgcolor ="lightgreen" border = "2" cellspacing="10" cellpadding="10">
 <colgroup span="2"></colgroup>

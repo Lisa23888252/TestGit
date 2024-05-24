@@ -1,0 +1,95 @@
+/* Document-wide styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em; /* Base font size */
+  line-height: 1.5; /* Set line spacing */
+  margin: 0; /* Remove default margin */
+  background-color: grey; /*  background */
+  color: purple;
+}
+
+/* Headers (H1-H6) */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 2em; /* Set bottom margin for headers */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em; /* Larger size for H1 */
+  color: yellow; /* Darker text color */
+}
+
+/* Links */
+a:link {
+  color: purple; /*  links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: orange; /* Change color on hover */
+}
+a:active{
+color: red;
+text-decoration: underline;
+}
+a:visited{
+color: lightgreen;
+}
+B:first-child {
+ color: red; 
+ }
+
+/* Internal style for a specific paragraph */
+#special-offer p {
+  font-style: italic; /* Italic text for the paragraph with id="special-offer" */
+}
+
+/* List styles */
+ul {
+  list-style: disc; /* Disc bullets for unordered list */
+  margin-left: 2em; /* Indent list items */
+  padding: 10px; /* Remove default padding */
+}
+
+ol {
+  list-style: decimal; /* Decimal numbers for ordered list */
+  margin-left: 1.5em; /* Larger indent for ordered list */
+  padding: 0;
+  color: lightyellow;
+}
+
+dl {
+  margin: 1em; /* Remove default margin for definition lists */
+  padding: 0;
+}
+
+dt {
+  font-weight: bold; /* Bold terms in definition lists */
+  color: green;
+}
+
+dd {
+  margin-right: 2em; /* Indent definitions */
+}
+
+/* Table styles */
+table {
+  border: 1px solid black; 
+  width: 100%; /* Set table width to 100% */
+  padding: 10px;
+}
+
+th {
+  background-color: lightblue; /* Light blue background for table headers */
+  padding: 15px; /* Padding for table header cells */
+  border: 1px solid #ddd; /* Table border */
+  text-align: center; /* Left-align table header text */
+  color: black;
+}
+
+td {
+  padding: 10px; /* Padding for table data cells */
+  border: 1px solid #ddd; /* Table border */
+  text-align: center;
+}
